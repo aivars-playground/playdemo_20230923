@@ -1,11 +1,11 @@
 name := """playdemo"""
 organization := "com.example"
-version := "1.0-SNAPSHOT"
+version := "0.1.0-SNAPSHOT"
+versionScheme := Some("semver-spec")
 
 scalaVersion := "3.3.1"
 
 libraryDependencies += guice
-libraryDependencies += ehcache
 
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "6.0.0-RC2" % Test
 

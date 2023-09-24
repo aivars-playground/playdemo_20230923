@@ -1,6 +1,6 @@
 name := """playdemo"""
 organization := "com.example"
-version := "0.1.0-SNAPSHOT"
+version := "0.1-SNAPSHOT"
 versionScheme := Some("semver-spec")
 
 scalaVersion := "3.3.1"
